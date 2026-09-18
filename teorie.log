@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  17 SEP 2026 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  18 SEP 2026 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -446,10 +446,62 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count321
 ))
+(D:\Apps\MikTeX\tex/latex/minitoc\minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(D:\Apps\MikTeX\tex/latex/minitoc\mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write4
+\mtcindent=\skip57
+\mtcskipamount=\skip58
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks43
+\mtc@strutbox=\box67
+\mtc@hstrutbox=\box68
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout4 = `teorie.mtc0'.
+
+\openout4 = `teorie.mtc'.
+
+ (teorie.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout4 = `teorie.mtc'.
+
+\openout4 = `teorie.mtc0'.
+
+\c@mtc=\count322
+\c@minitocdepth=\count323
+\c@ptc=\count324
+\c@parttocdepth=\count325
+\ptcindent=\skip59
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(D:\Apps\MikTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+(D:\Apps\MikTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+))
 (D:\Apps\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count322
-) (teorie.aux)
+\l__color_backend_stack_int=\count326
+) (teorie.aux
+(chapters/geometria_in_spatiu.aux))
 \openout1 = `teorie.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -503,17 +555,17 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (D:\Apps\MikTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
+\scratchcounter=\count327
 \scratchdimen=\dimen276
-\scratchbox=\box67
-\nofMPsegments=\count324
-\nofMParguments=\count325
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count326
+\scratchbox=\box69
+\nofMPsegments=\count328
+\nofMParguments=\count329
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count330
 \MPscratchDim=\dimen277
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
+\everyMPtoPDFconversion=\toks45
 ) (D:\Apps\MikTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -522,13 +574,22 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\Apps\MikTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM teorie.toc on input line 29.
+Package minitoc Info: I0033
+(minitoc)             Writing teorie.mtc1.
+\openout4 = `teorie.mtc1'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsb.fd
@@ -537,108 +598,132 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/paul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (teorie.toc)
-\tf@toc=\write4
-\openout4 = `teorie.toc'.
+\tf@toc=\write5
+\openout5 = `teorie.toc'.
 
  [1
 
 ]
-Overfull \hbox (40.1228pt too wide) in paragraph at lines 98--99
+Capitolul 1.
+\openout4 = `teorie.mtc'.
+
+\openout4 = `teorie.mtc'.
+
+(teorie.mtc1) [2
+
+]
+\openout2 = `chapters/geometria_in_spatiu.aux'.
+
+ (chapters/geometria_in_spatiu.tex
+Overfull \hbox (40.1228pt too wide) in paragraph at lines 67--68
  [][] 
  []
 
 
-Overfull \hbox (5.31163pt too wide) in paragraph at lines 112--112
+Overfull \hbox (46.56163pt too wide) in paragraph at lines 81--81
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[3
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Overfull \hbox (16.04614pt too wide) in paragraph at lines 224--233
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Overfull \hbox (16.04614pt too wide) in paragraph at lines 193--202
 []\OT1/cmr/m/n/10 Triunghi drep-tunghic   []   [] 
  []
 
 
-Overfull \hbox (5.35567pt too wide) in paragraph at lines 236--249
+Overfull \hbox (5.35567pt too wide) in paragraph at lines 205--218
 []\OT1/cmr/m/n/10 Triunghi isos-cel   []   [] 
  []
 
-[3]
-Overfull \hbox (17.50217pt too wide) in paragraph at lines 252--259
+[4]
+Overfull \hbox (17.50217pt too wide) in paragraph at lines 221--228
 []\OT1/cmr/m/n/10 Dreptunghi & P^^Uatrat   []   [] 
  []
 
 
-Overfull \hbox (15.20552pt too wide) in paragraph at lines 262--269
+Overfull \hbox (15.20552pt too wide) in paragraph at lines 231--238
 []\OT1/cmr/m/n/10 Cerc   []   [] 
  []
 
-[4] (teorie.aux)
+) [5]
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the teorie.maf file.
+\openout4 = `teorie.maf'.
+
+Package minitoc(hints) Info: I0019
+(minitoc(hints))             No hints have been written 
+(minitoc(hints))             in the teorie.log file..
+ (teorie.aux (chapters/geometria_in_spatiu.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14571 strings out of 467871
- 282251 string characters out of 5432810
- 683881 words of memory out of 5000000
- 43188 multiletter control sequences out of 15000+600000
- 639416 words of font info for 84 fonts, out of 8000000 for 9000
+ 16674 strings out of 467871
+ 317687 string characters out of 5432810
+ 729439 words of memory out of 5000000
+ 45257 multiletter control sequences out of 15000+600000
+ 645570 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,501b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,521b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Apps/MikTeX/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfo
 nts/cm/cmbx5.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><D:/A
 pps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Apps/MikTeX/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Apps/Mik
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Apps/MikTeX/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
-><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Apps/MikTeX/fonts/
-type1/public/amsfonts/cm/cmr6.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/Apps/M
-ikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Apps/MikTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/f
-onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on teorie.pdf (5 pages, 223955 bytes).
+/public/amsfonts/cm/cmbx9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Apps/Mik
+TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Apps/MikTeX/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Apps/MikTeX/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts
+/cm/cmr5.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Apps/M
+ikTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Apps/MikTeX/fonts/type1/publi
+c/amsfonts/cm/cmr9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Apps/MikTeX/font
+s/type1/public/amsfonts/cm/cmti10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfon
+ts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+
+Output written on teorie.pdf (6 pages, 252728 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
