@@ -18,11 +18,12 @@
 
 \newcommand{\ptitle}[1]{\newpage \begin{center} \section[#1]{\underbar{#1}} \end{center}}
 \newcommand{\psubtitle}[1]{\subsection[#1]{\underbar{#1}}}
-\newcommand{\highlight}[1]{\textbf{\textcolor[HTML]{F20717}{#1}}}
+\newcommand{\bchapter}[1]{\chapter{#1} \minitoc}
 
 \begin{document}
     \renewcommand{\contentsname}{Cuprins}
     \renewcommand{\chaptername}{Capitolul}
+    \renewcommand{\partname}{Partea}
     \renewcommand{\mtctitle}{Cuprinsul capitolului}
 
     \dominitoc
@@ -33,8 +34,11 @@
 
     \tableofcontents
 
-    \chapter{Geometria în spațiu}
-    \minitoc
+    \part{Algebră}
+        \bchapter{Mulțimi și intervale}
+        \include{chapters/algebra/multimi_si_intervale}
 
-    \include{chapters/geometria_in_spatiu}
+    \part{Geometrie}
+        \bchapter{Geometria în spațiu}
+        \include{chapters/geometrie/geometria_in_spatiu}
 \end{document}
