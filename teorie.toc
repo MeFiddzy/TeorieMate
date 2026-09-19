@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {1.1.1}Mulțimea numerelor naturale ($\mathbb {N}$)}{4}{}%
 \contentsline {subsection}{\numberline {1.1.2}Mulțimea numerelor întregi ($\mathbb {Z}$)}{4}{}%
 \contentsline {subsection}{\numberline {1.1.3}Mulțimea numerelor raționale ($\mathbb {Q}$)}{4}{}%
-\contentsline {subsection}{\numberline {1.1.4}Mulțimea numerelor iraționale ($\mathbb {R} / \mathbb {Q}$)}{4}{}%
+\contentsline {subsection}{\numberline {1.1.4}Mulțimea numerelor iraționale ($\mathbb {R} \setminus \mathbb {Q}$)}{4}{}%
 \contentsline {subsection}{\numberline {1.1.5}Mulțimea numerelor reale ($\mathbb {R}$)}{4}{}%
 \contentsline {subsection}{\numberline {1.1.6}Relația de incluziune dintre principalele mulțimi de numere}{5}{}%
 \contentsline {part}{II\hspace {1em}Geometrie}{6}{}%
