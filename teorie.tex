@@ -11,6 +11,17 @@
 \usepackage{minitoc}
 \usepackage{centernot}
 
+\usetikzlibrary{intersections}
+\usetikzlibrary{angles,quotes}
+\usetikzlibrary{calc}
+
+\newcommand{\rightangletick}[4][0.15cm]{%
+    \coordinate (tickA) at ($(#2)!#1!(#3)$);
+    \coordinate (tickB) at ($(#2)!#1!(#4)$);
+    \coordinate (tickC) at ($(tickA)+(tickB)-(#2)$);
+    \draw (tickA) -- (tickC) -- (tickB);
+}
+
 \title{Teorie matematică}
 \author{Șerban Paul-Gabriel}
 \date{}
@@ -19,6 +30,7 @@
 
 \newcommand{\ptitle}[1]{\newpage \begin{center} \section[#1]{\underbar{#1}} \end{center}}
 \newcommand{\psubtitle}[1]{\subsection[#1]{\underbar{#1}}}
+\newcommand{\psubsubtitle}[1]{\subsubsection[#1]{\underbar{#1}}}
 \newcommand{\bchapter}[1]{\chapter{#1} \minitoc}
 
 \begin{document}

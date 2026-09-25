@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  19 SEP 2026 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  25 SEP 2026 20:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,28 +500,45 @@ File: english.mld 2006/01/13
 (D:\Apps\MikTeX\tex/latex/oberdiek\centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-(D:\Apps\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
+(D:\Apps\MikTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryinterse
+ctions.code.tex
+(D:\Apps\MikTeX\tex/generic/pgf/libraries\pgflibraryintersections.code.tex
+(D:\Apps\MikTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count326
+))
+(D:\Apps\MikTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryangles.
+code.tex
+File: tikzlibraryangles.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(D:\Apps\MikTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryquotes.
+code.tex
+File: tikzlibraryquotes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(D:\Apps\MikTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.co
+de.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (D:\Apps\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count326
+\l__color_backend_stack_int=\count327
 ) (teorie.aux
 (chapters/algebra/multimi_si_intervale.aux)
 (chapters/geometrie/geometria_in_spatiu.aux))
 \openout1 = `teorie.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -559,16 +576,16 @@ LaTeX Font Info:    ... okay on input line 24.
 
 (D:\Apps\MikTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
+\scratchcounter=\count328
 \scratchdimen=\dimen276
 \scratchbox=\box69
-\nofMPsegments=\count328
-\nofMParguments=\count329
+\nofMPsegments=\count329
+\nofMParguments=\count330
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count330
+\MPscratchCnt=\count331
 \MPscratchDim=\dimen277
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
 \everyMPtoPDFconversion=\toks45
 ) (D:\Apps\MikTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -582,7 +599,7 @@ Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM teorie.toc on input line 31.
+(minitoc)             PREPARING MINITOCS FROM teorie.toc on input line 43.
 Package minitoc Info: I0033
 (minitoc)             Writing teorie.mtc1.
 \openout4 = `teorie.mtc1'.
@@ -591,13 +608,13 @@ Package minitoc Info: I0033
 (minitoc)             Writing teorie.mtc2.
 \openout4 = `teorie.mtc2'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsb.fd
@@ -642,73 +659,78 @@ Capitolul 2.
 \openout2 = `chapters/geometrie/geometria_in_spatiu.aux'.
 
  (chapters/geometrie/geometria_in_spatiu.tex
-Overfull \hbox (40.1228pt too wide) in paragraph at lines 67--68
+Overfull \hbox (40.1228pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
 
-Overfull \hbox (46.56163pt too wide) in paragraph at lines 81--81
+Overfull \hbox (46.56163pt too wide) in paragraph at lines 82--82
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Overfull \hbox (16.04614pt too wide) in paragraph at lines 193--202
+Overfull \hbox (16.04614pt too wide) in paragraph at lines 194--203
 []\OT1/cmr/m/n/10 Triunghi drep-tunghic   []   [] 
  []
 
 
-Overfull \hbox (5.35567pt too wide) in paragraph at lines 205--218
+Overfull \hbox (5.35567pt too wide) in paragraph at lines 206--219
 []\OT1/cmr/m/n/10 Triunghi isos-cel   []   [] 
  []
 
 [9]
-Overfull \hbox (17.50217pt too wide) in paragraph at lines 221--228
+Overfull \hbox (17.50217pt too wide) in paragraph at lines 222--229
 []\OT1/cmr/m/n/10 Dreptunghi & P^^Uatrat   []   [] 
  []
 
 
-Overfull \hbox (15.20552pt too wide) in paragraph at lines 231--238
+Overfull \hbox (15.20552pt too wide) in paragraph at lines 232--239
 []\OT1/cmr/m/n/10 Cerc   []   [] 
  []
 
-[10]) [11]
+[10] [11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 362--365
+
+ []
+
+) [13]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the teorie.maf file.
@@ -725,13 +747,13 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 16746 strings out of 467871
- 320408 string characters out of 5432810
- 729118 words of memory out of 5000000
- 45313 multiletter control sequences out of 15000+600000
+ 17564 strings out of 467871
+ 339359 string characters out of 5432810
+ 748598 words of memory out of 5000000
+ 46113 multiletter control sequences out of 15000+600000
  645570 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,107p,521b,706s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,107p,521b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Apps/MikTeX/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfo
 nts/cm/cmbx5.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><D:/A
@@ -751,9 +773,9 @@ ts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/A
 pps/MikTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on teorie.pdf (12 pages, 293072 bytes).
+Output written on teorie.pdf (14 pages, 301350 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

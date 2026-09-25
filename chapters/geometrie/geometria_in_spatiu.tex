@@ -1,3 +1,4 @@
+% region
 \ptitle{Noțiuni ale geometriei în spațiu}
  
     \psubtitle{Punct, Dreaptă, Plan}
@@ -115,7 +116,7 @@
                             \draw[fill] (-0.2, .1) circle (1px) node[anchor=south west]{C};
                         \end{tikzpicture}
                     \end{minipage}\begin{minipage}[c]{0.5\textwidth}
-                         $\alpha = (A,B,C)$
+                         $\alpha = (ABC)$
                     \end{minipage}
                 \end{center}
             \item[$A_4$] \underbar{Axiomă făra nume:} Dacă 2 puncte ale unei drepte aparțin unui plan, atunci dreapta este inclusă în plan (= toate punctele ei aparțin planului).\\
@@ -176,9 +177,9 @@
      
     \psubtitle{Desene în plan și în spațiu}
          
-         Desen \hspace{5cm} În plan \hspace{5cm} În spațiu \\
+        Desen \hspace{5cm} În plan \hspace{5cm} În spațiu \\
      
-         Unghi drept \hspace{4cm}
+        Unghi drept \hspace{4cm}
         \begin{tikzpicture}[scale=3]
             \draw (0, 1) -- (0, 0) -- (1, 0);
             \draw (0, .1) -- (.1, .1) -- (.1, 0);
@@ -190,7 +191,7 @@
          
         \noindent\rule{\textwidth}{0.4pt}
 
-         Triunghi dreptunghic \hspace{4cm}
+        Triunghi dreptunghic \hspace{4cm}
         \begin{tikzpicture}[scale=3]
             \draw (0, 1) -- (0, 0) -- (1, 0) -- (0, 1);
             \draw (0, .1) -- (.1, .1) -- (.1, 0);
@@ -218,7 +219,7 @@
 
         \noindent\rule{\textwidth}{0.4pt}
 
-         Dreptunghi \& Pătrat \hspace{3.5cm}
+        Dreptunghi \& Pătrat \hspace{3.5cm}
         \begin{tikzpicture}[scale=3]
             \draw (-.5, -.25) -- (-.5, .25) -- (.5, .25) -- (.5, -.25) -- (-.5, -.25);
         \end{tikzpicture} \hspace{3.5cm}
@@ -228,7 +229,7 @@
          
         \noindent\rule{\textwidth}{0.4pt}
 
-         Cerc \hspace{5.5cm}
+        Cerc \hspace{5.5cm}
         \begin{tikzpicture}[scale=3]
             \draw (0, 0) circle (.5);
         \end{tikzpicture} \hspace{4.5cm}
@@ -262,3 +263,168 @@
             \[ \therefore \boxed{S = \frac{n(n-1)}{2}} \] \qedhere
 
         \end{proof}
+% endregion
+
+% region
+\ptitle{Determinarea Planului}
+    Metodele prin care se poate determina un plan sunt următoarele:
+    \begin{enumerate}
+        \item Axiomă: Trei puncte coliniare determină un plan.
+            \begin{center}
+                    \begin{minipage}[c]{.4\textwidth}        
+                        \begin{tikzpicture}
+                            \draw (-2, 0) -- (2, 1);
+                            \draw (-2, 0) -- (2, 0);
+
+                            \node[anchor=south east] at (2, 0) {$\alpha$};
+
+                            \draw[fill] (-1, .05) circle (1px) node[anchor=south west]{A};
+                            \draw[fill] (2, .7) circle (1px) node[anchor=south west]{B};
+                            \draw[fill] (-0.2, .1) circle (1px) node[anchor=south west]{C};
+                        \end{tikzpicture}
+                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                         $\alpha = (ABC)$
+                    \end{minipage}
+            \end{center}
+        \item Teoremă: O dreaptă și un punct exterior ei determină un plan.
+            \begin{center}
+                    \begin{minipage}[c]{.4\textwidth}        
+                        \begin{tikzpicture}
+                            \draw (-2, 0) -- (2, 1);
+                            \draw (-2, 0) -- (2, 0);
+                            \draw (-1, .05) -- (2, .7);
+
+                            \node[anchor=south east] at (2, 0) {$\alpha$};
+
+                            \draw[fill] (-1, .05) circle (1px) node[anchor=south west]{A};
+                            \draw[fill] (2, .7) circle (1px) node[anchor=south west]{B};
+                            \draw[fill] (-0.2, .1) circle (1px) node[anchor=west]{C};
+                        \end{tikzpicture}
+                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                         $\alpha = (A;BC)$
+                    \end{minipage}
+            \end{center}
+        \item Teoremă: Două drepte concurente determină un plan.
+            \begin{center}
+                    \begin{minipage}[c]{.4\textwidth}        
+                        \begin{tikzpicture}
+                            \draw (-2, 0) -- (2, 1);
+                            \draw (-2, 0) -- (2, 0);
+                            \node[anchor=south east] at (2, 0) {$\alpha$};
+
+                            \coordinate (A) at (1, 0.3);
+                            \coordinate (B) at (1.5, .7);
+                            \coordinate (C) at (-0.3, 0.1);
+
+                            \draw[fill] (A) circle (1px) node[anchor=south] {A};
+                            \draw[fill] (B) circle (1px) node[anchor=west] {B};
+                            \draw[fill] (C) circle (1px) node[anchor=east] {C};
+
+                            \draw (C) -- ($(C)!1.5!(A)$);
+                            \draw (B) -- ($(B)!1.7!(A)$);
+                        \end{tikzpicture}
+                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                         $\alpha = (AC;AB)$
+                    \end{minipage}
+            \end{center}
+        \item Teoremă: Două drepte paralele determină un plan.
+            \begin{center}
+                    \begin{minipage}[c]{.4\textwidth}        
+                        \begin{tikzpicture}
+                            \draw (-2, 0) -- (2, 1);
+                            \draw (-2, 0) -- (2, 0);
+                            \node[anchor=south east] at (2, 0) {$\alpha$};
+
+                            \coordinate (A) at (1, 0.3);
+                            \coordinate (B) at (1.5, .7);
+                            \coordinate (C) at (-0.3, 0.1);
+                            \coordinate (D) at ($(B) + 1.2*(C) - 1.2*(A)$);
+
+                            \draw[fill] (A) circle (1px) node[anchor=north] {A};
+                            \draw[fill] (B) circle (1px) node[anchor=west] {B};
+                            \draw[fill] (C) circle (1px) node[anchor=east] {C};
+                            \draw[fill] (D) circle (1px) node[anchor=east] {D};
+
+                            \draw (C) -- ($(C)!1.5!(A)$);
+                            \draw (B) -- (D);
+
+                        \end{tikzpicture}
+                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                         $\alpha = (BD;CA)$
+                    \end{minipage}
+            \end{center}
+    \end{enumerate}
+% endregion
+
+% region 
+\ptitle{Piramida}
+    \psubtitle{Definirea piramidei}
+    \textbf{\underbar{Definiție}} \\
+    Piramida este corpul geometric format dintr-un poligon plan (numit bază), un punct exterior planului poligonului (numit vârf) 
+    și dreptele care unesc vârful cu vârfurile poligonului. \\
+    \begin{center}
+        \begin{tikzpicture}
+            \coordinate (A) at (-1, 0);
+            \coordinate (B) at (1, 0);
+            \coordinate (C) at (2, 1);
+            \coordinate (D) at (0, 1);
+            \coordinate (M) at (.7, 2.5);
+            \coordinate (O) at (.7, .3);
+            \coordinate (P) at (1.5, 0.5);
+
+            \draw[fill] (A) circle (1px) node[anchor=north]{A};
+            \draw[fill] (B) circle (1px) node[anchor=north]{B};
+            \draw[fill] (C) circle (1px) node[anchor=north]{C};
+            \draw[fill] (D) circle (1px) node[anchor=south west]{D};
+            \draw[fill] (M) circle (1px) node[anchor=south]{M};
+            \draw[fill] (O) circle (1px) node[anchor=south east]{O};
+            \draw[fill] (P) circle (1px) node[anchor=west]{P};
+
+            \draw (A) -- (B);
+            \draw (B) -- (C);
+            \draw[dashed] (A) -- (D);
+            \draw[dashed] (D) -- (C);
+
+            \draw (M) -- (A);
+            \draw (M) -- (B);
+            \draw (M) -- (C);        
+            \draw[dashed] (M) -- (D);
+
+            \draw (.7, .45) -- (.85, .45) -- (.85, .3);
+
+            \draw[dashed] (M) -- (O);
+            \draw (M) -- (P);
+
+            \rightangletick{P}{M}{C}
+        \end{tikzpicture}
+    \end{center}
+    \textbf{\underbar{Elementele piramidei}}
+    \begin{enumerate}
+        \item baza (patrulaterul $ABCD$)
+        \item vârful (punctul $M$)
+        \item muchii: \begin{enumerate}
+            \item[a)] laterale ($MA$, $MB$, $MC$, $MD$) 
+            \item[b)] bazei ($AB$, $BC$, $CD$, $DA$) 
+        \end{enumerate}
+        \item înălțimea (OM) - perpendiculara dusă din vârf pe planul bazei
+        \item apotema (PM) - perpendiculara dusă din vârf pe o latură a bazei
+    \end{enumerate}
+    \psubtitle{Categorizarea piramidei}
+    Piramidele se pot categoriza în funcție de natura bazei, aceaste sunt câteva exemple de categorii de piramide care 
+    sunt categorizate în acest fel.
+    \begin{enumerate}
+        \item priamidă triunghiulară (=tetraed)
+        \item piramidă patrulateră
+        \item piramidă pentagonală
+    \end{enumerate}
+    Dacă proiecția vârfului piramidei pe planul bazei coincide cu centrul cercului circumscris al bazei, ea se numește
+    \textbf{piramidă dreaptă}.\\
+    Piramida dreaptă cu baza un poligon regulat se numește piramidă regulată. \\
+    Exemple de piramide drepte.
+    \begin{enumerate}
+        \item piramidă triunghiulară regulată - baza este un triunghi echilateral și muchile laterale sunt congruente
+        \item piramidă dreptunghiulară regulată - baza este un pătrat și muchile laterale sunt congruente
+        \item piramidă hexagonală regulată - baza este un hexagon regulat și muchile laterale sunt congruente
+        \item \textbf{tetraed regulat} - piramida triunghiulară cu toate muchile congruente / toate fețele triunghiuri echilaterale
+    \end{enumerate}
+% endregion
