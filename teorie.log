@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  25 SEP 2026 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  26 SEP 2026 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,7 +643,8 @@ Capitolul 1.
 
  (chapters/algebra/multimi_si_intervale.tex [4
 
-]) [5] [6
+] [5] [6])
+[7] [8
 
 
 
@@ -653,7 +654,7 @@ Capitolul 2.
 
 \openout4 = `teorie.mtc'.
 
-(teorie.mtc2) [7
+(teorie.mtc2) [9
 
 ]
 \openout2 = `chapters/geometrie/geometria_in_spatiu.aux'.
@@ -683,7 +684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-[8
+[10
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
@@ -715,7 +716,7 @@ Overfull \hbox (5.35567pt too wide) in paragraph at lines 206--219
 []\OT1/cmr/m/n/10 Triunghi isos-cel   []   [] 
  []
 
-[9]
+[11]
 Overfull \hbox (17.50217pt too wide) in paragraph at lines 222--229
 []\OT1/cmr/m/n/10 Dreptunghi & P^^Uatrat   []   [] 
  []
@@ -725,12 +726,12 @@ Overfull \hbox (15.20552pt too wide) in paragraph at lines 232--239
 []\OT1/cmr/m/n/10 Cerc   []   [] 
  []
 
-[10] [11] [12]
+[12] [13] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 362--365
 
  []
 
-) [13]
+) [15]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the teorie.maf file.
@@ -773,9 +774,9 @@ ts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/A
 pps/MikTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on teorie.pdf (14 pages, 301350 bytes).
+Output written on teorie.pdf (16 pages, 307355 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 182 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
