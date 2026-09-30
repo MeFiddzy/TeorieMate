@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  26 SEP 2026 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  30 SEP 2026 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -525,20 +525,20 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 (chapters/geometrie/geometria_in_spatiu.aux))
 \openout1 = `teorie.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -599,7 +599,7 @@ Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM teorie.toc on input line 43.
+(minitoc)             PREPARING MINITOCS FROM teorie.toc on input line 58.
 Package minitoc Info: I0033
 (minitoc)             Writing teorie.mtc1.
 \openout4 = `teorie.mtc1'.
@@ -608,13 +608,13 @@ Package minitoc Info: I0033
 (minitoc)             Writing teorie.mtc2.
 \openout4 = `teorie.mtc2'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsb.fd
@@ -643,8 +643,8 @@ Capitolul 1.
 
  (chapters/algebra/multimi_si_intervale.tex [4
 
-] [5] [6])
-[7] [8
+] [5] [6]
+[7]) [8] [9
 
 
 
@@ -654,7 +654,7 @@ Capitolul 2.
 
 \openout4 = `teorie.mtc'.
 
-(teorie.mtc2) [9
+(teorie.mtc2) [10
 
 ]
 \openout2 = `chapters/geometrie/geometria_in_spatiu.aux'.
@@ -684,7 +684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-[10
+[11
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
@@ -716,7 +716,7 @@ Overfull \hbox (5.35567pt too wide) in paragraph at lines 206--219
 []\OT1/cmr/m/n/10 Triunghi isos-cel   []   [] 
  []
 
-[11]
+[12]
 Overfull \hbox (17.50217pt too wide) in paragraph at lines 222--229
 []\OT1/cmr/m/n/10 Dreptunghi & P^^Uatrat   []   [] 
  []
@@ -726,12 +726,12 @@ Overfull \hbox (15.20552pt too wide) in paragraph at lines 232--239
 []\OT1/cmr/m/n/10 Cerc   []   [] 
  []
 
-[12] [13] [14]
+[13] [14] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 362--365
 
  []
 
-) [15]
+) [16]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the teorie.maf file.
@@ -748,10 +748,10 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17564 strings out of 467871
- 339359 string characters out of 5432810
- 748598 words of memory out of 5000000
- 46113 multiletter control sequences out of 15000+600000
+ 17567 strings out of 467871
+ 339390 string characters out of 5432810
+ 748710 words of memory out of 5000000
+ 46116 multiletter control sequences out of 15000+600000
  645570 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,521b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -774,9 +774,9 @@ ts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/A
 pps/MikTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on teorie.pdf (16 pages, 307355 bytes).
+Output written on teorie.pdf (17 pages, 310190 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

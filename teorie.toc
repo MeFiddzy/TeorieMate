@@ -13,15 +13,18 @@
 \contentsline {subsection}{\numberline {1.2.2}Intervalul mărginit}{6}{}%
 \contentsline {subsection}{\numberline {1.2.3}Intervalul nemărginit}{6}{}%
 \contentsline {subsection}{\numberline {1.2.4}Identități suplimentare}{6}{}%
-\contentsline {part}{II\hspace {1em}Geometrie}{8}{}%
-\contentsline {xpart}{Geometrie}{9}{}%
-\contentsline {chapter}{\numberline {2}Geometria în spațiu}{9}{}%
-\contentsline {section}{\numberline {2.1}Noțiuni ale geometriei în spațiu}{10}{}%
-\contentsline {subsection}{\numberline {2.1.1}Punct, Dreaptă, Plan}{10}{}%
-\contentsline {subsection}{\numberline {2.1.2}Axiomele referitoare la puncte, drepte și planuri (axiomele geometriei în spațiu)}{10}{}%
-\contentsline {subsection}{\numberline {2.1.3}Desene în plan și în spațiu}{11}{}%
-\contentsline {subsection}{\numberline {2.1.4}Teoremă nenumită (număr drepte formate din $n$ puncte)}{12}{}%
-\contentsline {section}{\numberline {2.2}Determinarea Planului}{14}{}%
-\contentsline {section}{\numberline {2.3}Piramida}{15}{}%
-\contentsline {subsection}{\numberline {2.3.1}Definirea piramidei}{15}{}%
-\contentsline {subsection}{\numberline {2.3.2}Categorizarea piramidei}{15}{}%
+\contentsline {section}{\numberline {1.3}Operații cu intervale}{8}{}%
+\contentsline {subsection}{\numberline {1.3.1}Reuniunea ($\cup $)}{8}{}%
+\contentsline {subsection}{\numberline {1.3.2}Intersecția ($\cap $)}{8}{}%
+\contentsline {part}{II\hspace {1em}Geometrie}{9}{}%
+\contentsline {xpart}{Geometrie}{10}{}%
+\contentsline {chapter}{\numberline {2}Geometria în spațiu}{10}{}%
+\contentsline {section}{\numberline {2.1}Noțiuni ale geometriei în spațiu}{11}{}%
+\contentsline {subsection}{\numberline {2.1.1}Punct, Dreaptă, Plan}{11}{}%
+\contentsline {subsection}{\numberline {2.1.2}Axiomele referitoare la puncte, drepte și planuri (axiomele geometriei în spațiu)}{11}{}%
+\contentsline {subsection}{\numberline {2.1.3}Desene în plan și în spațiu}{12}{}%
+\contentsline {subsection}{\numberline {2.1.4}Teoremă nenumită (număr drepte formate din $n$ puncte)}{13}{}%
+\contentsline {section}{\numberline {2.2}Determinarea Planului}{15}{}%
+\contentsline {section}{\numberline {2.3}Piramida}{16}{}%
+\contentsline {subsection}{\numberline {2.3.1}Definirea piramidei}{16}{}%
+\contentsline {subsection}{\numberline {2.3.2}Categorizarea piramidei}{16}{}%
