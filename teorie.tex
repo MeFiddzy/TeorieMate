@@ -11,9 +11,7 @@
 \usepackage{minitoc}
 \usepackage{centernot}
 
-\usetikzlibrary{intersections}
-\usetikzlibrary{angles,quotes}
-\usetikzlibrary{calc}
+\usetikzlibrary{angles, quotes, calc, math, decorations.pathreplacing}
 
 \newcommand{\rightangletick}[4][0.15cm]{%
     \coordinate (tickA) at ($(#2)!#1!(#3)$);
@@ -35,6 +33,19 @@
         \xdef\previtem{\x}%
     }
     \draw (\previtem) -- (\firstitem);
+}
+
+\newcommand{\point}[2]{%
+    \draw[fill] (#1) circle(1px) node[anchor=#2]{#1};
+}
+
+\newcommand{\markline}[4][]{%
+    \path (#2); \pgfgetlastxy{\ax}{\ay}
+    \path (#3); \pgfgetlastxy{\bx}{\by}
+
+    \draw[#1] (#2) arc[start angle=180, end angle=0, 
+                    x radius={0.5*sqrt((\bx-\ax)^2+(\by-\ay)^2)/1cm}, 
+                    y radius=#4];
 }
 
 \title{Teorie matematică}

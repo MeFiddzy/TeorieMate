@@ -1,9 +1,8 @@
 % region
 \ptitle{Noțiuni ale geometriei în spațiu}
- 
     \psubtitle{Punct, Dreaptă, Plan}
 
-         % Punctul
+        % Punctul
         \begin{wrapfigure}[6]{r}{0.4\textwidth}
             \centering
             \begin{tikzpicture}
@@ -23,7 +22,7 @@
             \end{enumerate}
         \end{description}
 
-         % Dreapta
+        % Dreapta
         \begin{wrapfigure}[9]{r}{0.4\textwidth}
             \centering
             \begin{tikzpicture}
@@ -53,7 +52,7 @@
             \end{enumerate}
         \end{description}
 
-         % Planul
+        % Planul
         \begin{wrapfigure}[5]{r}{0.4\textwidth}
             \centering
             \begin{tikzpicture}
@@ -78,7 +77,6 @@
         \end{description}
          
         \vspace{1cm}
-
     \psubtitle{Axiomele referitoare la puncte, drepte și planuri (axiomele geometriei în spațiu)}
         \begin{description}
             \item[$A_1$] \underbar{Axioma dreptei:} Două puncte distincte determină o singură dreaptă.\\
@@ -263,97 +261,94 @@
             \[ \therefore \boxed{S = \frac{n(n-1)}{2}} \] \qedhere
 
         \end{proof}
-% endregion
+    \psubtitle{Determinarea Planului}
+        Metodele prin care se poate determina un plan sunt următoarele:
+        \begin{enumerate}
+            \item Axiomă: Trei puncte coliniare determină un plan.
+                \begin{center}
+                        \begin{minipage}[c]{.4\textwidth}        
+                            \begin{tikzpicture}
+                                \draw (-2, 0) -- (2, 1);
+                                \draw (-2, 0) -- (2, 0);
 
-% region
-\ptitle{Determinarea Planului}
-    Metodele prin care se poate determina un plan sunt următoarele:
-    \begin{enumerate}
-        \item Axiomă: Trei puncte coliniare determină un plan.
-            \begin{center}
-                    \begin{minipage}[c]{.4\textwidth}        
-                        \begin{tikzpicture}
-                            \draw (-2, 0) -- (2, 1);
-                            \draw (-2, 0) -- (2, 0);
+                                \node[anchor=south east] at (2, 0) {$\alpha$};
 
-                            \node[anchor=south east] at (2, 0) {$\alpha$};
+                                \draw[fill] (-1, .05) circle (1px) node[anchor=south west]{A};
+                                \draw[fill] (2, .7) circle (1px) node[anchor=south west]{B};
+                                \draw[fill] (-0.2, .1) circle (1px) node[anchor=south west]{C};
+                            \end{tikzpicture}
+                        \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                            $\alpha = (ABC)$
+                        \end{minipage}
+                \end{center}
+            \item Teoremă: O dreaptă și un punct exterior ei determină un plan.
+                \begin{center}
+                        \begin{minipage}[c]{.4\textwidth}        
+                            \begin{tikzpicture}
+                                \draw (-2, 0) -- (2, 1);
+                                \draw (-2, 0) -- (2, 0);
+                                \draw (-1, .05) -- (2, .7);
 
-                            \draw[fill] (-1, .05) circle (1px) node[anchor=south west]{A};
-                            \draw[fill] (2, .7) circle (1px) node[anchor=south west]{B};
-                            \draw[fill] (-0.2, .1) circle (1px) node[anchor=south west]{C};
-                        \end{tikzpicture}
-                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
-                         $\alpha = (ABC)$
-                    \end{minipage}
-            \end{center}
-        \item Teoremă: O dreaptă și un punct exterior ei determină un plan.
-            \begin{center}
-                    \begin{minipage}[c]{.4\textwidth}        
-                        \begin{tikzpicture}
-                            \draw (-2, 0) -- (2, 1);
-                            \draw (-2, 0) -- (2, 0);
-                            \draw (-1, .05) -- (2, .7);
+                                \node[anchor=south east] at (2, 0) {$\alpha$};
 
-                            \node[anchor=south east] at (2, 0) {$\alpha$};
+                                \draw[fill] (-1, .05) circle (1px) node[anchor=south west]{A};
+                                \draw[fill] (2, .7) circle (1px) node[anchor=south west]{B};
+                                \draw[fill] (-0.2, .1) circle (1px) node[anchor=west]{C};
+                            \end{tikzpicture}
+                        \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                            $\alpha = (A;BC)$
+                        \end{minipage}
+                \end{center}
+            \item Teoremă: Două drepte concurente determină un plan.
+                \begin{center}
+                        \begin{minipage}[c]{.4\textwidth}        
+                            \begin{tikzpicture}
+                                \draw (-2, 0) -- (2, 1);
+                                \draw (-2, 0) -- (2, 0);
+                                \node[anchor=south east] at (2, 0) {$\alpha$};
 
-                            \draw[fill] (-1, .05) circle (1px) node[anchor=south west]{A};
-                            \draw[fill] (2, .7) circle (1px) node[anchor=south west]{B};
-                            \draw[fill] (-0.2, .1) circle (1px) node[anchor=west]{C};
-                        \end{tikzpicture}
-                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
-                         $\alpha = (A;BC)$
-                    \end{minipage}
-            \end{center}
-        \item Teoremă: Două drepte concurente determină un plan.
-            \begin{center}
-                    \begin{minipage}[c]{.4\textwidth}        
-                        \begin{tikzpicture}
-                            \draw (-2, 0) -- (2, 1);
-                            \draw (-2, 0) -- (2, 0);
-                            \node[anchor=south east] at (2, 0) {$\alpha$};
+                                \coordinate (A) at (1, 0.3);
+                                \coordinate (B) at (1.5, .7);
+                                \coordinate (C) at (-0.3, 0.1);
 
-                            \coordinate (A) at (1, 0.3);
-                            \coordinate (B) at (1.5, .7);
-                            \coordinate (C) at (-0.3, 0.1);
+                                \draw[fill] (A) circle (1px) node[anchor=south] {A};
+                                \draw[fill] (B) circle (1px) node[anchor=west] {B};
+                                \draw[fill] (C) circle (1px) node[anchor=east] {C};
 
-                            \draw[fill] (A) circle (1px) node[anchor=south] {A};
-                            \draw[fill] (B) circle (1px) node[anchor=west] {B};
-                            \draw[fill] (C) circle (1px) node[anchor=east] {C};
+                                \draw (C) -- ($(C)!1.5!(A)$);
+                                \draw (B) -- ($(B)!1.7!(A)$);
+                            \end{tikzpicture}
+                        \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                            $\alpha = (AC;AB)$
+                        \end{minipage}
+                \end{center}
+            \item Teoremă: Două drepte paralele determină un plan.
+                \begin{center}
+                        \begin{minipage}[c]{.4\textwidth}        
+                            \begin{tikzpicture}
+                                \draw (-2, 0) -- (2, 1);
+                                \draw (-2, 0) -- (2, 0);
+                                \node[anchor=south east] at (2, 0) {$\alpha$};
 
-                            \draw (C) -- ($(C)!1.5!(A)$);
-                            \draw (B) -- ($(B)!1.7!(A)$);
-                        \end{tikzpicture}
-                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
-                         $\alpha = (AC;AB)$
-                    \end{minipage}
-            \end{center}
-        \item Teoremă: Două drepte paralele determină un plan.
-            \begin{center}
-                    \begin{minipage}[c]{.4\textwidth}        
-                        \begin{tikzpicture}
-                            \draw (-2, 0) -- (2, 1);
-                            \draw (-2, 0) -- (2, 0);
-                            \node[anchor=south east] at (2, 0) {$\alpha$};
+                                \coordinate (A) at (1, 0.3);
+                                \coordinate (B) at (1.5, .7);
+                                \coordinate (C) at (-0.3, 0.1);
+                                \coordinate (D) at ($(B) + 1.2*(C) - 1.2*(A)$);
 
-                            \coordinate (A) at (1, 0.3);
-                            \coordinate (B) at (1.5, .7);
-                            \coordinate (C) at (-0.3, 0.1);
-                            \coordinate (D) at ($(B) + 1.2*(C) - 1.2*(A)$);
+                                \draw[fill] (A) circle (1px) node[anchor=north] {A};
+                                \draw[fill] (B) circle (1px) node[anchor=west] {B};
+                                \draw[fill] (C) circle (1px) node[anchor=east] {C};
+                                \draw[fill] (D) circle (1px) node[anchor=east] {D};
 
-                            \draw[fill] (A) circle (1px) node[anchor=north] {A};
-                            \draw[fill] (B) circle (1px) node[anchor=west] {B};
-                            \draw[fill] (C) circle (1px) node[anchor=east] {C};
-                            \draw[fill] (D) circle (1px) node[anchor=east] {D};
+                                \draw (C) -- ($(C)!1.5!(A)$);
+                                \draw (B) -- (D);
 
-                            \draw (C) -- ($(C)!1.5!(A)$);
-                            \draw (B) -- (D);
-
-                        \end{tikzpicture}
-                    \end{minipage}\begin{minipage}[c]{0.5\textwidth}
-                         $\alpha = (BD;CA)$
-                    \end{minipage}
-            \end{center}
-    \end{enumerate}
+                            \end{tikzpicture}
+                        \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                            $\alpha = (BD;CA)$
+                        \end{minipage}
+                \end{center}
+        \end{enumerate}
 % endregion
 
 % region 
@@ -427,4 +422,45 @@
         \item piramidă hexagonală regulată - baza este un hexagon regulat și muchile laterale sunt congruente
         \item \textbf{tetraed regulat} - piramida triunghiulară cu toate muchile congruente / toate fețele triunghiuri echilaterale
     \end{enumerate}
+% endregion
+
+% region
+\ptitle{Relații în poligoane regulate}
+    \psubtitle{Triunghul echilateral}
+        Triunghul echilateral este poligonul regulat cu 3 vârfuri. \\
+        \begin{center}
+            \begin{minipage}[c]{.4\textwidth}        
+                \begin{tikzpicture}
+                    \coordinate (O) at (0, 0);
+                    \regularPolygon{3}{{A, B, C}}{90}{(O)}{2};
+
+                    \draw[dashed, opacity=.5] (O) circle (2);
+                    \draw[dashed, opacity=.5] (O) circle (1);
+
+                    \coordinate (D) at (intersection of A--B and C--O);
+
+                    \point{O}{south east};
+                    \point{D}{north};
+                    \point{A}{east};
+                    \point{B}{west};
+                    \point{C}{south};
+
+                    \draw (C) -- (D);
+                    \node at ($(O)!0.5!(D)$) [anchor=east]{r};
+                    \rightangletick{D}{C}{A}
+
+                    \node[anchor=east] at (0, 1) {R};
+
+                    \node[anchor=south west] at ($(C)!0.5!(B)$) {l};
+
+                    \draw[decorate, decoration={brace, amplitude=2pt, raise=1pt}] (C) -- (D) node[midway, anchor=west] {$h$};
+                \end{tikzpicture}
+            \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                \[h_3=\frac{l\sqrt{3}}{2}\]
+                \[A_3=\frac{l^2\sqrt{3}}{4}\]
+                \[R_3=\frac{l\sqrt{3}}{3} = \frac{l}{\sqrt{3}} \text{ (=centrul cercului circumscris în triunghi)}\]
+                \[r_3=a_3=\frac{l\sqrt{3}}{6} = \frac{l}{2\sqrt{3}} \text{ (=centrul cercului înscris în triunghi)}\]
+                \[P_3=3l\]
+            \end{minipage}
+        \end{center}
 % endregion
