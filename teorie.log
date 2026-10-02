@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  2 OCT 2026 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  2 OCT 2026 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,8 +662,8 @@ Capitolul 1.
 
  (chapters/algebra/multimi_si_intervale.tex [4
 
-] [5] [6]
-[7]) [8] [9
+] [5]) [6]
+[7
 
 
 
@@ -673,7 +673,7 @@ Capitolul 2.
 
 \openout4 = `teorie.mtc'.
 
-(teorie.mtc2) [10
+(teorie.mtc2) [8
 
 ]
 \openout2 = `chapters/geometrie/geometria_in_spatiu.aux'.
@@ -703,7 +703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[11
+[9
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
@@ -735,7 +735,7 @@ Overfull \hbox (5.35567pt too wide) in paragraph at lines 204--217
 []\OT1/cmr/m/n/10 Triunghi isos-cel   []   [] 
  []
 
-[12]
+[10]
 Overfull \hbox (17.50217pt too wide) in paragraph at lines 220--227
 []\OT1/cmr/m/n/10 Dreptunghi & P^^Uatrat   []   [] 
  []
@@ -745,16 +745,17 @@ Overfull \hbox (15.20552pt too wide) in paragraph at lines 230--237
 []\OT1/cmr/m/n/10 Cerc   []   [] 
  []
 
-[13] [14]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 357--360
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 
  []
 
+[13]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -762,18 +763,18 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (14.87668pt too wide) detected at line 461
+Overfull \hbox (14.87668pt too wide) detected at line 471
 \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = [] = [][]
  []
 
 
-Overfull \hbox (18.7617pt too wide) detected at line 462
+Overfull \hbox (18.7617pt too wide) detected at line 472
 \OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = [
 ] = [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 
  []
 
@@ -786,7 +787,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
@@ -799,7 +800,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) [16]
+) [14]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the teorie.maf file.
@@ -818,7 +819,7 @@ L3 programming layer <2025-12-24>
 Here is how much of TeX's memory you used:
  18151 strings out of 467871
  357076 string characters out of 5432810
- 761664 words of memory out of 5000000
+ 761669 words of memory out of 5000000
  46687 multiletter control sequences out of 15000+600000
  645570 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -830,21 +831,21 @@ pps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/Apps/MikTeX/fonts/type1
 /public/amsfonts/cm/cmbx9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cm
 ex10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Apps/Mik
 TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Apps/MikTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi9.pf
-b><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Apps/MikTeX/font
-s/type1/public/amsfonts/cm/cmr12.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfont
-s/cm/cmr17.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Apps
-/MikTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Apps/MikTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr9.pf
-b><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Apps/MikTeX/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfon
-ts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/A
-pps/MikTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1
-/public/amsfonts/symbols/msam10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts
-/symbols/msbm10.pfb>
-Output written on teorie.pdf (17 pages, 318313 bytes).
+c/amsfonts/cm/cmmi5.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/Apps/MikTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/App
+s/MikTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Apps/MikTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Apps/MikTeX/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Ap
+ps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Apps/MikTeX/fonts/type1
+/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on teorie.pdf (15 pages, 329173 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
+ 184 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
