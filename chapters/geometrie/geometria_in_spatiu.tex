@@ -427,7 +427,7 @@
 % region
 \ptitle{Relații în poligoane regulate}
     \psubtitle{Triunghul echilateral}
-        Triunghul echilateral este poligonul regulat cu 3 vârfuri. \\
+        Triunghul echilateral este poligonul regulat cu 3 vârfuri și cu toate unghiurile egale cu $60^\circ$. \\
         \begin{center}
             \begin{minipage}[c]{.4\textwidth}        
                 \begin{tikzpicture}
@@ -439,28 +439,110 @@
 
                     \coordinate (D) at (intersection of A--B and C--O);
 
-                    \point{O}{south east};
-                    \point{D}{north};
-                    \point{A}{east};
-                    \point{B}{west};
-                    \point{C}{south};
+                    \point{O}{anchor=south east};
+                    \point{D}{anchor=north};
+                    \point{A}{anchor=east};
+                    \point{B}{anchor=west};
+                    \point{C}{anchor=south};
 
                     \draw (C) -- (D);
-                    \node at ($(O)!0.5!(D)$) [anchor=east]{r};
+                    \node at ($(O)!0.5!(D)$) [anchor=east]{$r$};
                     \rightangletick{D}{C}{A}
 
-                    \node[anchor=east] at (0, 1) {R};
+                    \node[anchor=east] at (0, 1) {$R$};
 
-                    \node[anchor=south west] at ($(C)!0.5!(B)$) {l};
+                    \node[anchor=south west] at ($(C)!0.5!(B)$) {$l$};
 
                     \draw[decorate, decoration={brace, amplitude=2pt, raise=1pt}] (C) -- (D) node[midway, anchor=west] {$h$};
                 \end{tikzpicture}
             \end{minipage}\begin{minipage}[c]{0.5\textwidth}
                 \[h_3=\frac{l\sqrt{3}}{2}\]
                 \[A_3=\frac{l^2\sqrt{3}}{4}\]
-                \[R_3=\frac{l\sqrt{3}}{3} = \frac{l}{\sqrt{3}} \text{ (=centrul cercului circumscris în triunghi)}\]
-                \[r_3=a_3=\frac{l\sqrt{3}}{6} = \frac{l}{2\sqrt{3}} \text{ (=centrul cercului înscris în triunghi)}\]
+                \[R_3=\frac{l\sqrt{3}}{3} = \frac{l}{\sqrt{3}} \text{ (=raza cercului circumscris în triunghi)}\]
+                \[r_3=a_3=\frac{l\sqrt{3}}{6} = \frac{l}{2\sqrt{3}} \text{ (=raza cercului înscris în triunghi)}\]
                 \[P_3=3l\]
+            \end{minipage}
+        \end{center}
+    \psubtitle{Pătratul}
+        Pătratul este poligonul regulat cu 4 vârfuri și cu toate unghiurile egale cu $90^\circ$. \\
+        \begin{center}
+            \begin{minipage}[c]{.4\textwidth}        
+                \begin{tikzpicture}
+                    \coordinate (O) at (0, 0);
+                    \regularPolygon{4}{{A, B, C, D}}{135}{(O)}{2};
+                    \coordinate (E) at (intersection of A--B and O--0, -1);
+
+                    \draw[dashed, opacity=.5] (O) circle (2);
+                    \draw[dashed, opacity=.5] (O) circle (1.41421356237);
+
+                    \draw (O)--(E) node[midway, anchor=west]{$a$};
+
+                    \rightangletick{E}{O}{A};
+
+                    \node at ($(D)!.5!(C)$) [anchor=south]{$l$};
+
+                    \point{O}{anchor=south};
+                    \point{A}{anchor=north};
+                    \point{B}{anchor=north};
+                    \point{C}{anchor=south};
+                    \point{D}{anchor=south};
+                    \point{E}{anchor=north};
+
+                    \draw (A) -- (C);
+
+                    \draw (A) -- (O) node[midway, xshift=3px, yshift=-3px]{$R$};
+                
+                    \draw[dashed] (D) -- (B);
+
+                    \draw[decorate, decoration={brace, amplitude=2pt, raise=1pt}] (A) -- (C) node[midway, xshift=-6px, yshift=2px] {$d$};
+                \end{tikzpicture}
+            \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                \[d_4=l\sqrt{2}\]
+                \[A_4=l^2\]
+                \[R_4=\frac{l\sqrt{2}}{2} = \frac{l}{\sqrt{2}}\]
+                \[a_4=\frac{l}{2}\]
+                \[P_4=4l\]
+            \end{minipage}
+        \end{center}
+    \psubtitle{Hexagonul regulat}
+        Hexagonul regulat este poligonul regulat cu 6 vârfuri și cu toate unghiurile egale cu $120^\circ$. \\
+        \begin{center}
+            \begin{minipage}[c]{.4\textwidth}        
+                \begin{tikzpicture}
+                    \coordinate (O) at (0, 0);
+                    \regularPolygon{6}{{A, B, C, D, E, F}}{0}{(O)}{2};
+                    \coordinate (G) at ($(A)!.5!(F)$);
+
+                    \draw[dashed, opacity=.5] (O) circle (2);
+                    \draw[dashed, opacity=.5] (O) circle (1.73205080757);
+
+                    \draw (A) -- (B) node[midway, anchor=south]{$l$};
+                    \draw (O) -- (F) node[midway, anchor=north]{$R$};
+
+                    \draw (A) -- (O) -- (B);
+                    \draw (C) -- (O) -- (B);
+                    \draw (C) -- (O) -- (D);
+                    \draw (D) -- (O) -- (E);
+                    \draw (E) -- (O) -- (F);
+                    \draw (F) -- (O) -- (A);
+
+                    \point{O}{yshift=10px};
+                    \point{A}{anchor=south};
+                    \point{B}{anchor=south};
+                    \point{C}{anchor=east};
+                    \point{D}{anchor=north};
+                    \point{E}{anchor=north};
+                    \point{F}{anchor=west};
+                    \point{G}{anchor=west};
+                    
+                    \draw (O) -- (G) node[midway, yshift=-2px, xshift=3px]{$a$};
+                    \rightangletick{G}{O}{F}
+                \end{tikzpicture}
+            \end{minipage}\begin{minipage}[c]{0.5\textwidth}
+                \[A_6=6 \cdot \frac{l^2\sqrt{3}}{4} = \frac{3l^2\sqrt{3}}{2}\]
+                \[R_6=l\]
+                \[a_6=\frac{l\sqrt{3}}{2}\]
+                \[P_6=6l\]
             \end{minipage}
         \end{center}
 % endregion

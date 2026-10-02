@@ -30,3 +30,5 @@
 \contentsline {subsection}{\numberline {2.2.2}Categorizarea piramidei}{15}{}%
 \contentsline {section}{\numberline {2.3}Relații în poligoane regulate}{16}{}%
 \contentsline {subsection}{\numberline {2.3.1}Triunghul echilateral}{16}{}%
+\contentsline {subsection}{\numberline {2.3.2}Pătratul}{16}{}%
+\contentsline {subsection}{\numberline {2.3.3}Hexagonul regulat}{16}{}%

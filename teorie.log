@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  2 OCT 2026 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  2 OCT 2026 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,16 +762,43 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (26.82114pt too wide) detected at line 461
+Overfull \hbox (14.87668pt too wide) detected at line 461
 \OML/cmm/m/it/10 R[] \OT1/cmr/m/n/10 = [] = [][]
  []
 
 
-Overfull \hbox (30.70616pt too wide) detected at line 462
+Overfull \hbox (18.7617pt too wide) detected at line 462
 \OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = [
 ] = [][]
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 ) [16]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -789,10 +816,10 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18098 strings out of 467871
- 356123 string characters out of 5432810
- 754671 words of memory out of 5000000
- 46634 multiletter control sequences out of 15000+600000
+ 18151 strings out of 467871
+ 357076 string characters out of 5432810
+ 761664 words of memory out of 5000000
+ 46687 multiletter control sequences out of 15000+600000
  645570 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,12n,107p,521b,741s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -815,7 +842,7 @@ ts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/A
 pps/MikTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on teorie.pdf (17 pages, 314012 bytes).
+Output written on teorie.pdf (17 pages, 318313 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
