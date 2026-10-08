@@ -20,7 +20,7 @@
     \draw (tickA) -- (tickC) -- (tickB);
 }
 
-\newcommand{\regularPolygon}[5]{%
+\newcommand{\regularPolygon}[5]{% #1=count, #2=list, #3=shift, #4=center, #5=rad
     \def\previtem{}%
     \def\firstitem{}%
     \foreach \x [count=\i] in #2 {

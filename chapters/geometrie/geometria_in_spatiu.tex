@@ -557,3 +557,84 @@
             \end{minipage}
         \end{center}
 % endregion
+
+% region
+\newpage
+\ptitle{Prisma}
+    \psubtitle{Definirea prismei}
+        \textbf{Prisma} este corpul geometric format prin conectarea vârfurilor a două poligoane identice (care formează muchiile laterale)
+        aflate în plane paralele. \\
+        \textbf{Prisma dreaptă} este prisma cu muchiile laterale perpendiculare pe ambele baze. \\
+        \textbf{Prisma regulată} este prisma dreaptă cu baza un poligon regulat.
+    \psubtitle{Arii și volume în prismă}
+        \textbf{Aria laterală} ($A_l$) este egală cu suma laturilor fețelor laterale. \\
+        Aria laterală într-o prismă regulată este egală cu produsul dintre numărul de vârfuri ale bazei și ara unei fețe laterale.
+        \[ A_l = n \cdot A_f \text{ cu } A_f = \text{aria unei fețe și } n = \text{numărul de vârfuri ale bazei} \]
+        Aria totală ($A_t$) este suma dintre aria laterală și dublul ariei bazei.
+        \[ A_t = 2A_b + A_l \]
+    \psubtitle{Prisma triunghiulară regulată}
+        Prisma triunghiulară regulată este prisma dreaptă cu un triunghi echilateral ca bază. \\
+        Exemplu de prismă triunghiulară regulată și desfășurarea ei:
+        \begin{center}
+            \begin{minipage}[c]{.2\textwidth}
+                \begin{tikzpicture}
+                    \coordinate (A) at (-2, 0);
+                    \coordinate (B) at (0, -1);
+                    \coordinate (C) at (1, 0);
+
+                    \coordinate (A') at (-2, 2);
+                    \coordinate (B') at (0, 1);
+                    \coordinate (C') at (1, 2);
+
+                    \point{A}{anchor=east};
+                    \point{B}{anchor=north};
+                    \point{C}{anchor=west};
+
+                    \point{A'}{anchor=east};
+                    \point{B'}{anchor=north west};
+                    \point{C'}{anchor=west};
+                    
+                    \draw (A) -- (A');
+                    \draw (B) -- (B');
+                    \draw (C) -- (C');
+
+                    \draw (A') -- (B') -- (C') -- (A');
+
+                    \draw (A) -- (B) -- (C);
+                    \draw[dashed] (A) -- (C);
+                \end{tikzpicture}
+            \end{minipage}\begin{minipage}[c]{.3\textwidth}
+                \[\xrightarrow{\text{desfășurare}}\]
+            \end{minipage}\begin{minipage}[c]{.4\textwidth}
+                \begin{tikzpicture}
+                    \coordinate (A') at (-.5, 1);
+                    \coordinate (A) at (-.5, -1);
+                    \coordinate (C') at (.5, 1);
+                    \coordinate (C) at (.5, -1);
+
+                    \point{A'}{anchor=south east};
+                    \point{A}{anchor=north east};
+                    \point{C'}{anchor=south west};
+                    \point{C}{anchor=north west};
+                    
+                    \draw (A') -- (A) -- (C) -- (C') -- (A');
+                    \draw (A') -- (-1.5, 1) -- (-1.5, -1) -- (A);
+                    \draw (C') -- (1.5, 1) -- (1.5, -1) -- (C);
+
+                    \regularPolygon{3}{{t', T', B'}}{90}{(0, 1.28867513459)}{0.57735026919};
+                    \point{B'}{anchor=south};
+
+                    \regularPolygon{3}{{t, T, B}}{-90}{(0, -1.28867513459)}{0.57735026919};
+                    \point{B}{anchor=north};
+                \end{tikzpicture}
+            \end{minipage}
+        \end{center}
+        Elementele prizmei triunghiulare regulată sunt următoarele.
+        \begin{enumerate}
+            \item 2 baze, ambele fiind triunghiuri echilaterale cu latură egală ($ABC$ și $A'B'C'$)
+            \item 3 fețe laterale, ele fiind dreptunghiurile formate din 2 muchii laterale și 2 muchii ale bazei ($A'B'BA$, $B'C'CB$ și $C'A'AC$)
+            \item 3 muchii laterale, ele fiind muchiile care conectează bazele între ele ($AA'$, $BB'$ și $CC'$)
+            \item 6 muchii ale bazei, ele fiind muchiile celor 2 baze ($AB$, $BC$, $CA$, $A'B'$, $B'C'$ și $C'A'$)
+            \item o infinitate de înălțimi, ele fiind toate dreptele perpendiculare pe ambele baze
+        \end{enumerate}
+% endregion
