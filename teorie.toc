@@ -33,8 +33,8 @@
 \contentsline {section}{\numberline {2.3}Relații în poligoane regulate}{15}{}%
 \contentsline {subsection}{\numberline {2.3.1}Triunghul echilateral}{15}{}%
 \contentsline {subsection}{\numberline {2.3.2}Pătratul}{15}{}%
-\contentsline {subsection}{\numberline {2.3.3}Hexagonul regulat}{15}{}%
-\contentsline {section}{\numberline {2.4}Prisma}{16}{}%
-\contentsline {subsection}{\numberline {2.4.1}Definirea prismei}{16}{}%
-\contentsline {subsection}{\numberline {2.4.2}Arii și volume în prismă}{16}{}%
-\contentsline {subsection}{\numberline {2.4.3}Prisma triunghiulară regulată}{16}{}%
+\contentsline {subsection}{\numberline {2.3.3}Hexagonul regulat}{16}{}%
+\contentsline {section}{\numberline {2.4}Prisma}{17}{}%
+\contentsline {subsection}{\numberline {2.4.1}Definirea prismei}{17}{}%
+\contentsline {subsection}{\numberline {2.4.2}Arii și volume în prismă}{17}{}%
+\contentsline {subsection}{\numberline {2.4.3}Prisma triunghiulară regulată}{17}{}%

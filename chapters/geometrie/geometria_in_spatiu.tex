@@ -424,11 +424,63 @@
         \item \textbf{tetraedru regulat} - piramida triunghiulară cu toate muchile congruente / toate fețele triunghiuri echilaterale
     \end{enumerate}
     \psubtitle{Arii și volume în piramidă}
-    Aria fețelor laterale (fețelor care au vârful piramidei ca un vârf al triunghiului) a unei piramide se numește aria laterală și se notează cu $A_l$.
-    Într-o piramidă regulată, ea este egală cu numărul de vârfuri ale bazei înmulțit cu aria oricărei fețe.
-    \[ VA_1A_2...A_n - \text{piramidă regulată} \implies A_l = n\cdot A_{\triangle VA_1A_2} \]
+    Aria fețelor laterale (fețelor care au vârful piramidei ca un vârf al triunghiului) a unei piramide se numește aria laterală și se notează cu $A_l$. \\
+    Într-o piramidă regulată, aria laterala este egală cu numărul de vârfuri ale bazei înmulțit cu aria oricărei fețe. \\
+    \begin{center}
+        \begin{minipage}[c]{.4\textwidth}
+            \[ A_l = n \cdot A_f \]
+        \end{minipage}\begin{minipage}[c]{.4\textwidth}
+            \begin{tikzpicture}
+                \coordinate (A) at (-1, 0);
+                \coordinate (B) at (0, -.5);
+                \coordinate (C) at (1, 0);
+                \coordinate (V) at (.2, 2.5);
+
+                \fill[blue!30] (B) -- (V) -- (C) -- cycle;
+                \fill[blue!30] (A) -- (V) -- (B) -- cycle;
+
+                \point{A}{anchor=east};
+                \point{B}{anchor=north};
+                \point{C}{anchor=west};
+                \point{V}{anchor=south};
+
+                \draw (A) -- (B) -- (C);
+                \draw[dashed] (A) -- (C);
+
+                \draw (V) -- (A);
+                \draw (V) -- (B);
+                \draw (V) -- (C);
+            \end{tikzpicture}
+        \end{minipage}
+    \end{center}
+    \newpage
     Aria bazei a unei piramidă se numește aria bazei și se notează cu $A_b$.
-    \[ VA_1A_2...A_n - \text{piramidă} \implies A_b = A_{A_1A_2...A_n} \]
+    \begin{center}
+        \begin{minipage}[c]{.6\textwidth}
+            \[ VA_1A_2...A_n - \text{piramidă} \implies A_b = A_{A_1A_2...A_n} \]
+        \end{minipage}\begin{minipage}[c]{.3\textwidth}
+            \begin{tikzpicture}
+                \coordinate (A) at (-1, 0);
+                \coordinate (B) at (0, -.5);
+                \coordinate (C) at (1, 0);
+                \coordinate (V) at (.2, 2.5);
+
+                \fill[blue!30] (A) -- (B) -- (C) -- cycle;
+
+                \point{A}{anchor=east};
+                \point{B}{anchor=north};
+                \point{C}{anchor=west};
+                \point{V}{anchor=south};
+
+                \draw (A) -- (B) -- (C);
+                \draw[dashed] (A) -- (C);
+
+                \draw (V) -- (A);
+                \draw (V) -- (B);
+                \draw (V) -- (C);
+            \end{tikzpicture}
+        \end{minipage}
+    \end{center}
     Aria totală a unei piramide este aria tuturor fețelor ei și se notează cu $A_t$. Ea se mai poate afla și prin însumarea ariei bazei și ariei laterale.
     \[ A_t = A_l + A_b \]
     Volumul unei piramide este egal cu o treime din produsul dintre aria bazei și înălțimea piramidei.
