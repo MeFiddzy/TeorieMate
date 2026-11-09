@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  12 OCT 2026 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  9 NOV 2026 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,8 +540,9 @@ ions.code.tex
 hreplacing.code.tex)) (D:\Apps\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
-)
-No file teorie.aux.
+) (teorie.aux (chapters/algebra/multimi_si_intervale.aux)
+(chapters/algebra/calcul_algebric.aux)
+(chapters/geometrie/geometria_in_spatiu.aux))
 \openout1 = `teorie.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -558,6 +559,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -626,6 +628,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing teorie.mtc2.
 \openout4 = `teorie.mtc2'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing teorie.mtc3.
+\openout4 = `teorie.mtc3'.
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 
@@ -662,17 +668,41 @@ Capitolul 1.
  (chapters/algebra/multimi_si_intervale.tex [4
 
 ] [5] [6])
-[7] [8
-
-
-
-]
+[7]
 Capitolul 2.
 \openout4 = `teorie.mtc'.
 
 \openout4 = `teorie.mtc'.
 
-(teorie.mtc2) [9
+(teorie.mtc2) [8
+
+
+
+]
+\openout2 = `chapters/algebra/calcul_algebric.aux'.
+
+ (chapters/algebra/calcul_algebric.tex
+Overfull \hbox (0.64476pt too wide) in paragraph at lines 24--27
+\OT1/cmr/m/n/10 Adun^^Uam dou^^Ua ex-pre-sii al-ge-brice el-e-mentare uti-liz^a
+nd prin-cip-iul fac-toru-lui co-mun ($\OML/cmm/m/it/10 ax \OT1/cmr/m/n/10 + \OM
+L/cmm/m/it/10 bx \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 a \OT1/cmr/m/n/10 + \OML/c
+mm/m/it/10 b\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 x;  \OMS/cmsy/m/n/10 8\OML/cmm/m/
+it/10 a; b; x \OMS/cmsy/m/n/10 2
+ []
+
+) [9
+
+] [10
+
+
+
+]
+Capitolul 3.
+\openout4 = `teorie.mtc'.
+
+\openout4 = `teorie.mtc'.
+
+(teorie.mtc3) [11
 
 ]
 \openout2 = `chapters/geometrie/geometria_in_spatiu.aux'.
@@ -702,7 +732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-[10
+[12
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
@@ -734,7 +764,7 @@ Overfull \hbox (5.35567pt too wide) in paragraph at lines 204--217
 []\OT1/cmr/m/n/10 Triunghi isos-cel   []   [] 
  []
 
-[11]
+[13]
 Overfull \hbox (17.50217pt too wide) in paragraph at lines 220--227
 []\OT1/cmr/m/n/10 Dreptunghi & P^^Uatrat   []   [] 
  []
@@ -744,12 +774,12 @@ Overfull \hbox (15.20552pt too wide) in paragraph at lines 230--237
 []\OT1/cmr/m/n/10 Cerc   []   [] 
  []
 
-[12]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 357--360
 
  []
 
-[13]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 427--429
 
  []
@@ -758,7 +788,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[14]
+[16]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -803,7 +833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 571--572
 
  []
 
-[15]
+[17]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -813,7 +843,6 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[16]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -821,7 +850,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (25.41837pt too wide) in paragraph at lines 657--658
+Overfull \hbox (25.41837pt too wide) in paragraph at lines 664--665
 [][] 
  []
 
@@ -833,7 +862,84 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) [17]
+[18]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (30.38193pt too wide) in paragraph at lines 725--726
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (1.92918pt too wide) in paragraph at lines 792--793
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (57.86243pt too wide) in paragraph at lines 869--870
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (29.05869pt too wide) in paragraph at lines 896--897
+[][] 
+ []
+
+[19]) [20]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the teorie.maf file.
@@ -843,6 +949,7 @@ Package minitoc(hints) Info: I0019
 (minitoc(hints))             No hints have been written 
 (minitoc(hints))             in the teorie.log file..
  (teorie.aux (chapters/algebra/multimi_si_intervale.aux)
+(chapters/algebra/calcul_algebric.aux)
 (chapters/geometrie/geometria_in_spatiu.aux))
  ***********
 LaTeX2e <2025-11-01>
@@ -850,11 +957,11 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18209 strings out of 467871
- 357618 string characters out of 5432810
- 759019 words of memory out of 5000000
- 46751 multiletter control sequences out of 15000+600000
- 645570 words of font info for 108 fonts, out of 8000000 for 9000
+ 18295 strings out of 467871
+ 360081 string characters out of 5432810
+ 790785 words of memory out of 5000000
+ 46815 multiletter control sequences out of 15000+600000
+ 647400 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,18n,107p,521b,741s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Apps/MikTeX/fon
@@ -866,19 +973,20 @@ ex10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Apps/Mik
 TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Apps/MikTeX/fonts/type1/publi
 c/amsfonts/cm/cmmi5.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
 b><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/Apps/MikTeX/font
-s/type1/public/amsfonts/cm/cmr10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/App
-s/MikTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Apps/MikTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr7.p
-fb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Apps/MikTeX/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfon
-ts/cm/cmsy7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Ap
-ps/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Apps/MikTeX/fonts/type1
-/public/amsfonts/cm/cmti7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/symbo
-ls/msam10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on teorie.pdf (18 pages, 337610 bytes).
+s/type1/public/amsfonts/cm/cmmib10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/A
+pps/MikTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Apps/MikTeX/fonts/type1
+/public/amsfonts/cm/cmr5.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Apps/MikTeX/f
+onts/type1/public/amsfonts/cm/cmr9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/
+Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type
+1/public/amsfonts/cm/cmti10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/
+cmti7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/Ap
+ps/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on teorie.pdf (21 pages, 362975 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
+ 208 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
