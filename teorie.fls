@@ -611,6 +611,8 @@ INPUT D:\Apps\MikTeX\tex\latex\minitoc\english.mld
 INPUT D:\Apps\MikTeX\tex\latex\minitoc\english.mld
 INPUT D:\Apps\MikTeX\tex\latex\oberdiek\centernot.sty
 INPUT D:\Apps\MikTeX\tex\latex\oberdiek\centernot.sty
+INPUT D:\Apps\MikTeX\tex\latex\yhmath\yhmath.sty
+INPUT D:\Apps\MikTeX\tex\latex\yhmath\yhmath.sty
 INPUT D:\Apps\MikTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryangles.code.tex
 INPUT D:\Apps\MikTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryangles.code.tex
 INPUT D:\Apps\MikTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryquotes.code.tex
@@ -682,6 +684,12 @@ INPUT D:\Apps\MikTeX\tex\latex\amsfonts\umsb.fd
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\Apps\MikTeX\tex\latex\yhmath\omxyhex.fd
+INPUT D:\Apps\MikTeX\tex\latex\yhmath\omxyhex.fd
+INPUT D:\Apps\MikTeX\tex\latex\yhmath\omxyhex.fd
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
 OUTPUT teorie.pdf
 INPUT C:\Users\paul\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -699,6 +707,9 @@ INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmbx5.tfm
 OUTPUT teorie.toc
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -718,6 +729,9 @@ INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\teorie.mtc1
 INPUT .\teorie.mtc1
@@ -733,6 +747,7 @@ INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmsy9.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
 INPUT teorie.mtc1
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmbx9.tfm
 INPUT .\chapters\algebra\multimi_si_intervale.tex
@@ -748,8 +763,11 @@ INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yhcmex10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmbx7.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT D:\Apps\MikTeX\fonts\vf\public\yhmath\yhcmex10.vf
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yrcmex10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
@@ -788,6 +806,9 @@ INPUT .\chapters\geometrie\geometria_in_spatiu.tex
 INPUT chapters\geometrie\geometria_in_spatiu.tex
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmti7.tfm
+INPUT D:\Apps\MikTeX\fonts\vf\public\yhmath\yhcmex10.vf
+INPUT D:\Apps\MikTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\Apps\MikTeX\fonts\tfm\public\yhmath\yrcmex10.tfm
 OUTPUT teorie.maf
 INPUT .\teorie.mtc
 INPUT .\teorie.mtc
@@ -849,6 +870,8 @@ INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
@@ -861,3 +884,5 @@ INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT D:\Apps\MikTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT D:\Apps\MikTeX\fonts\type1\public\yhmath\yhcmex.pfb
+INPUT D:\Apps\MikTeX\fonts\type1\public\yhmath\yhcmex.pfb

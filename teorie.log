@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  9 NOV 2026 21:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.3)  9 NOV 2026 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,6 +500,40 @@ File: english.mld 2006/01/13
 (D:\Apps\MikTeX\tex/latex/oberdiek\centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
+(D:\Apps\MikTeX\tex/latex/yhmath\yhmath.sty
+Package: yhmath 2020/03/17 v1.6
+\symyhlargesymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 29.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 51.
+LaTeX Font Info:    Redeclaring math delimiter \lmoustache on input line 53.
+LaTeX Font Info:    Redeclaring math delimiter \rmoustache on input line 55.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 57.
+LaTeX Font Info:    Redeclaring math delimiter \Arrowvert on input line 59.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 61.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 63.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 65.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 67.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 69.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 71.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 73.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 79.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 81.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 83.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 85.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 87.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 89.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 91.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 93.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 95.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 97.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 99.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 101.
+)
 (D:\Apps\MikTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryangles.
 code.tex
 File: tikzlibraryangles.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -545,20 +579,20 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 (chapters/geometrie/geometria_in_spatiu.aux))
 \openout1 = `teorie.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -619,7 +653,7 @@ Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM teorie.toc on input line 69.
+(minitoc)             PREPARING MINITOCS FROM teorie.toc on input line 70.
 Package minitoc Info: I0033
 (minitoc)             Writing teorie.mtc1.
 \openout4 = `teorie.mtc1'.
@@ -632,17 +666,24 @@ Package minitoc Info: I0033
 (minitoc)             Writing teorie.mtc3.
 \openout4 = `teorie.mtc3'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
 
 
 (D:\Apps\MikTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
+74.
+
+(D:\Apps\MikTeX\tex/latex/yhmath\omxyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 ) [1
 
 
@@ -939,7 +980,64 @@ Overfull \hbox (29.05869pt too wide) in paragraph at lines 896--897
 [][] 
  []
 
-[19]) [20]
+[19]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (75.28926pt too wide) detected at line 928
+\OML/cmm/m/it/10 C[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 C \OMS/cmsy/m/n/10 ^^A 
+[] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 ^^Yr[] \OT1/cmr/m/n/10 = [] = [][]
+ []
+
+
+Overfull \hbox (85.17136pt too wide) detected at line 929
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^A 
+[] \OT1/cmr/m/n/10 = [] = [][]
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (20.31596pt too wide) in paragraph at lines 965--966
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (53.73225pt too wide) in paragraph at lines 993--994
+[][] 
+ []
+
+[20]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (14.76036pt too wide) in paragraph at lines 1025--1026
+[][] 
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (36.12358pt too wide) in paragraph at lines 1049--1050
+[][] 
+ []
+
+) [21]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the teorie.maf file.
@@ -957,11 +1055,11 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18295 strings out of 467871
- 360081 string characters out of 5432810
- 790785 words of memory out of 5000000
- 46815 multiletter control sequences out of 15000+600000
- 647400 words of font info for 114 fonts, out of 8000000 for 9000
+ 18417 strings out of 467871
+ 362496 string characters out of 5432810
+ 791120 words of memory out of 5000000
+ 46926 multiletter control sequences out of 15000+600000
+ 652785 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,18n,107p,521b,741s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Apps/MikTeX/fon
@@ -979,14 +1077,16 @@ pps/MikTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Apps/MikTeX/fonts/type1
 /public/amsfonts/cm/cmr5.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr
 6.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Apps/MikTeX/f
 onts/type1/public/amsfonts/cm/cmr9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/
-Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type
-1/public/amsfonts/cm/cmti10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/
-cmti7.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/Ap
-ps/MikTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on teorie.pdf (21 pages, 362975 bytes).
+nts/cm/cmsy10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/
+Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Apps/MikTeX/fonts/type
+1/public/amsfonts/cm/cmsy9.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/c
+mti10.pfb><D:/Apps/MikTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><D:/Apps/Mik
+TeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/Apps/MikTeX/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb><D:/Apps/MikTeX/fonts/type1/public/yhmath/yh
+cmex.pfb>
+Output written on teorie.pdf (22 pages, 387544 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
+ 221 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

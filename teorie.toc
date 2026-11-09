@@ -46,4 +46,6 @@
 \contentsline {subsection}{\numberline {3.4.5}Cubul}{19}{}%
 \contentsline {subsection}{\numberline {3.4.6}Prisma hexagonală regulată}{19}{}%
 \contentsline {section}{\numberline {3.5}Corpurile rotunde drepte}{20}{}%
-\contentsline {subsection}{\numberline {3.5.1}Recapotulare. Cercul}{20}{}%
+\contentsline {subsection}{\numberline {3.5.1}Recapitulare. Cercul}{20}{}%
+\contentsline {subsection}{\numberline {3.5.2}Cilindrul circular drept}{20}{}%
+\contentsline {subsection}{\numberline {3.5.3}Conul circular drept}{21}{}%
